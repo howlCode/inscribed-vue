@@ -1,0 +1,40 @@
+@import "~bulma/bulma";
+@import url("https://fonts.googleapis.com/css?family=Kirang+Haerang");
+
+@import "mixins";
+
+#logo {
+  font-family: "Kirang Haerang", cursive;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.message {
+  box-shadow: 5px 10px;
+}
+
+.message-header-title {
+  text-transform: capitalize;
+}
+
+.hover-story {
+  @include swell;
+
+  &:hover {
+    cursor: pointer;
+    @include hoverSwell();
+  }
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
