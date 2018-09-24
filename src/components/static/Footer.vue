@@ -1,5 +1,5 @@
 <template>
-   <footer class="footer">
+   <footer class="footer footer-setup">
     <div class="container">
       <div class="content has-text-light is-small has-text-centered">
         <a href="https://github.com/howlCode" class="has-text-danger">
@@ -21,10 +21,9 @@ export default {
 </script>
 
 <style>
-.footer {
-  margin-bottom: 0;
-  margin-top: 40vh;
+.footer-setup {
   background-color: #363636;
+  margin-top: 40vh;
 }
 </style>
 

@@ -11,12 +11,9 @@
       </div>
       <div class="navbar-menu" :class="{ 'is-active': showNav }">
         <div class="navbar-start">
-          <i class="far fa-thumbs-up nav-icon has-text-primary"></i>
-          <router-link class="navbar-item" to="/new-arcs">Vote on New Story-Arcs!</router-link>
-          <i class="far fa-eye nav-icon has-text-info"></i>
-          <router-link class="navbar-item" to="/stories">See All Stories</router-link>
-          <i class="fas fa-edit nav-icon has-text-danger"></i>
-          <router-link class="navbar-item" to="/new-story">Create a New Story</router-link>
+          <router-link class="navbar-item" to="/new-arcs"><i class="far fa-thumbs-up nav-icon has-text-primary"></i>Vote on New Story-Arcs!</router-link>
+          <router-link class="navbar-item" to="/stories"><i class="far fa-eye nav-icon has-text-info"></i>See All Stories</router-link>
+          <router-link class="navbar-item" to="/new-story"><i class="fas fa-edit nav-icon has-text-danger"></i>Create a New Story</router-link>
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
@@ -77,7 +74,7 @@ export default {
   margin-right: 10px;
 }
 .nav-icon {
-  margin-top: 20px;
+  margin-right: 10px;
 }
 @media (max-width: 1087px) {
   .nav-icon {
