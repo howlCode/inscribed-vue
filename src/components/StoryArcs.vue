@@ -1,11 +1,11 @@
 <template>
   <transition appear enter-active-class="animated fadeIn">
   <section class="section">
+    <div class="container">
     <div class="has-text-centered" v-if="noStory()">
       <h1 class="title has-text-light">Loading...</h1>
     </div>
     <h2 class="subtitle has-text-light">The story began...
-    <button @click="newArc" class="button is-primary is-pulled-right is-hidden-mobile">Submit a New Story-Arc</button></h2>
     <button @click="newArc" class="button is-small is-primary is-shown-mobile">Submit New Story-Arc</button>
         <div class="message">
           <header class="message-header">
@@ -52,6 +52,7 @@
         </div>
       </div>
     </div>
+   </div>
   </section>
   </transition>
 </template>
@@ -121,6 +122,7 @@ export default {
   }
   .is-shown-mobile {
     display: none;
+    margin-bottom: 10px;
   }
 }
 

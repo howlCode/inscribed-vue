@@ -1,5 +1,6 @@
 <template>
   <section class="section">
+    <div class="container">
     <transition appear enter-active-class="animated fadeIn">
     <h1 class="title has-text-light">Welcome to Inscribed!</h1>
     </transition>
@@ -28,6 +29,7 @@
         </div>
       </div>
     </transition>
+    </div>
   </section>
 </template>
 

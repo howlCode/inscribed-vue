@@ -1,6 +1,7 @@
 <template>
   <transition appear enter-active-class="animated slideInUp">
   <section class="section">
+    <div class="container">
       <div class="has-text-centered" v-if="noStories()">
         <h1 class="title has-text-light">Loading...</h1>
       </div>
@@ -24,6 +25,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
   </section>
   </transition>

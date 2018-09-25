@@ -1,6 +1,7 @@
 <template>
   <transition appear enter-active-class="animated fadeIn">
   <section class="section">
+    <div class="container">
     <div class="has-text-centered" v-if="noArcs()">
       <h1 class="title has-text-light">No Story-Arcs to Vote On!</h1>
       <router-link to="/stories" class="has-text-primary subtitle">Get Writing!</router-link>
@@ -26,6 +27,7 @@
           <span class="mobile-clickable" @click="showArc(arc)">Read the Story-Arc</span>
         </div>
       </div>
+    </div>
     </div>
   </section>
   </transition>
