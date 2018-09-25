@@ -1,7 +1,7 @@
 <template>
-   <footer class="footer footer-setup">
+   <footer class="footer">
     <div class="container">
-      <div class="content has-text-light is-small has-text-centered">
+      <div class="content is-small has-text-centered">
         <a href="https://github.com/howlCode" class="has-text-danger">
           <i class="fab fa-github fa-3x" aria-hidden="true" />
         </a>
@@ -21,9 +21,8 @@ export default {
 </script>
 
 <style>
-.footer-setup {
-  background-color: #363636;
-  margin-top: 40vh;
+.footer {
+  margin-top: 20%;
 }
 </style>
 
